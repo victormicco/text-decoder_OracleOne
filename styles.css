@@ -1,0 +1,191 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Header Styles */
+.header {
+  padding: 1rem;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+.btn-signin {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  background-color: #3182ce;
+  color: white;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+/* Main Styles */
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  display: grid;
+  gap: 1rem;
+}
+
+.text-input {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.input-label {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.input-text {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #a0aec0;
+  border-radius: 0.25rem;
+}
+
+.btn-translate,
+.btn-copy {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  background-color: #3182ce;
+  color: white;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.btn-translate:hover {
+  background-color: #63b3ed;
+  transition: 220ms;
+}
+.btn-copy:hover {
+  background-color: #63b3ed;
+  transition: 220ms;
+}
+
+.translated-text {
+  display: grid;
+  gap: 0.5rem;
+}
+
+/* Footer Styles */
+.footer {
+  padding: 1rem;
+  border-top: 1px solid #a0aec0;
+  position: fixed;
+  bottom: 0;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-link {
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+/* Subscribe button */
+.btn-subscribe {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  background-color: #3182ce;
+  color: white;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.btn-subscribe:hover {
+  background-color: white;
+  transition: 220ms;
+  border: 0.1px solid #3182ce;
+  color: #3182ce;
+}
+
+#myself {
+  text-decoration: none;
+  color: #3182ce;
+}
+
+.title {
+  text-align: center;
+}
+
+.form-container {
+  margin-top: 20px;
+}
+
+.text-input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.option-select {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.process-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.result-container {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

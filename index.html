@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="scripts.js"></script>
+    <title>Translate App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header-container">
+          <a href="#" class="logo">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="m5 8 6 6"></path>
+              <path d="m4 14 6-6 2-3"></path>
+              <path d="M2 5h12"></path>
+              <path d="M7 2h1"></path>
+              <path d="m22 22-5-10-5 10"></path>
+              <path d="M14 18h6"></path>
+            </svg>
+            <span class="logo-text">Text Decoder | Oracle One</span>
+          </a>
+        </div>
+      </header>
+      <main class="main">
+        <div class="container">
+          <h1 class="title">Write your message and test it 🫨</h1>
+          <div class="form-container">
+            <label for="text">Text:</label>
+            <textarea id="text" class="text-input" rows="4"></textarea>
+            <label for="option">Choose an option:</label>
+            <select id="option" class="option-select">
+              <option value="encrypt">Encode</option>
+              <option value="decrypt">Decode</option>
+            </select>
+            <button onclick="processText()" class="process-btn">Process</button>
+          </div>
+          <div id="result" class="result-container"></div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer-container">
+          <nav class="nav">
+            <span class="footer-link"
+              >Maded with 💙 by
+              <a href="https://github.com/victormicco" id="myself"
+                >Victor Micco</a
+              ></span
+            >
+          </nav>
+          <button class="btn-subscribe" type="button" onclick="openGithub()">
+            Contribute
+          </button>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
